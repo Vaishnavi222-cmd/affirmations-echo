@@ -24,6 +24,9 @@ const Navbar = () => {
             <Link to="/gratitude" className={isActive("/gratitude")}>
               Gratitude
             </Link>
+            <Link to="/our-message" className={isActive("/our-message")}>
+              Our Message
+            </Link>
           </div>
         </div>
       </div>

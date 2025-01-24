@@ -6,6 +6,7 @@ import { BrowserRouter, Routes, Route } from "react-router-dom";
 import Index from "./pages/Index";
 import Affirmations from "./pages/Affirmations";
 import Gratitude from "./pages/Gratitude";
+import OurMessage from "./pages/OurMessage";
 
 const queryClient = new QueryClient();
 
@@ -19,6 +20,7 @@ const App = () => (
           <Route path="/" element={<Index />} />
           <Route path="/affirmations" element={<Affirmations />} />
           <Route path="/gratitude" element={<Gratitude />} />
+          <Route path="/our-message" element={<OurMessage />} />
         </Routes>
       </BrowserRouter>
     </TooltipProvider>

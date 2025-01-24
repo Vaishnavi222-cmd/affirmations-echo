@@ -15,6 +15,9 @@ const Footer = () => {
             <Link to="/gratitude" className="hover:text-primary">
               Daily Gratitude
             </Link>
+            <Link to="/our-message" className="hover:text-primary">
+              Our Message
+            </Link>
           </div>
           <p className="text-sm text-gray-600">Stay positive. Stay inspired.</p>
         </div>
